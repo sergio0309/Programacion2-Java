@@ -25,5 +25,6 @@ public class Ej08 {
         } else {
             System.out.println("El numero ingresado (" + num4 + ") no coincide con ninguno de los numeros anteriores: " + listaNumeros);
         }
+        sc.close();
     }
 }

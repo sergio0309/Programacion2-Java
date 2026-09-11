@@ -16,5 +16,6 @@ public class Ej03 {
         else {
             System.out.println("El numero es impar");
         }
+        teclado.close();
     }
 }

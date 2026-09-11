@@ -17,5 +17,6 @@ public class Ej04 {
         else {
             System.out.println("Es cero");
         }
+        teclado.close();
     }
 }

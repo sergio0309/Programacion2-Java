@@ -15,5 +15,6 @@ public class Ej07 {
         } else {
             System.out.println("No esta dentro del rango de edad");
         }
+        sc.close();
     }
 }

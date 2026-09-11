@@ -43,5 +43,6 @@ public class Ej05 {
         } else {
             System.out.println("No cumple con las condiciones");
         }
+        teclado.close();
     }
 }

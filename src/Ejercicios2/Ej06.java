@@ -17,5 +17,6 @@ public class Ej06 {
         } else {
             System.out.println("No cumple con las condiciones");
         }
+        teclado.close();
     }
 }
