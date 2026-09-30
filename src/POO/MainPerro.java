@@ -12,7 +12,6 @@ public class MainPerro {
         dog.saltar();
         dog.dormir();
         */
-
         System.out.println("---------- Perro 2 ----------");
         Perro dog1 = new Perro();
         System.out.println("El nombre es "+ dog1.nombre);
