@@ -44,4 +44,13 @@ public class ClaseCasa {
     public void setTamanio(double tamanio) {
         this.tamanio = tamanio;
     }
+
+    @Override
+    public String toString() {
+        return "ClaseCasa {" +
+                "puertas=" + puertas +
+                ", ventanas=" + ventanas +
+                ", tamanio=" + tamanio +
+                '}';
+    }
 }
