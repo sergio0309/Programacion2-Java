@@ -19,4 +19,11 @@ public class Auto extends Vehiculo{
     public void setPuertas(int puertas) {
         this.puertas = puertas;
     }
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "puertas=" + puertas +
+                '}' + super.toString();
+    }
 }

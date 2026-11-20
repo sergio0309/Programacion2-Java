@@ -17,5 +17,12 @@ public class Main {
         System.out.println("\nSOBRECARGA");
         moto.encender(false);
         //moto.encender();
+        System.out.println("\nPOLIMORFISMO DE INCLUSION");
+        printVehiculo(moto);
+        printVehiculo(auto);
+    }
+
+    public static void printVehiculo(Vehiculo vehiculo) {
+        System.out.println("toString(): "+vehiculo.toString());
     }
 }

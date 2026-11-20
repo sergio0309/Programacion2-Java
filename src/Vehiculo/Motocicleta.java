@@ -23,4 +23,10 @@ public class Motocicleta  extends Vehiculo{
         this.frenos = frenos;
     }
 
+    @Override
+    public String toString() {
+        return "Motocicleta{" +
+                "frenos=" + frenos +
+                '}'+ super.toString();
+    }
 }
