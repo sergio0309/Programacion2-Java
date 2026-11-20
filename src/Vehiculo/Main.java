@@ -14,5 +14,8 @@ public class Main {
         moto.encender();                    //Metodo heredado
         moto.apagar();                      //Metodo heredado
         ((Motocicleta) moto).encenderLuz(); //Metodo Propio
+        System.out.println("\nSOBRECARGA");
+        moto.encender(false);
+        //moto.encender();
     }
 }

@@ -6,7 +6,9 @@ public class Perro extends Animal{
         super(nombre, edad);
         this.raza = raza;
     }
-    public void hacerSonido(){
+
+    @Override
+    public void hacerSonido() {
         System.out.println(getNombre() + " dice: Guau guau");
     }
     public String getRaza() {

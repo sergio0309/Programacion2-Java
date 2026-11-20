@@ -13,6 +13,14 @@ public class Vehiculo {
         this.anio = anio;
     }
 
+    public void encender(boolean modoSilencio){
+        if(modoSilencio){
+            System.out.println("Encendido en modo silencio.");
+        } else {
+            System.out.println("Encender vehiculo");
+        }
+    }
+
     public void encender(){
         System.out.println("Encender vehiculo");
     }
