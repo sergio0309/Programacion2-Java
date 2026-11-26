@@ -5,12 +5,22 @@ public abstract class Vehiculo {
     private String marca;
     private String modelo;
     private int anio;
+    private Color color;
+    private EstadoVehiculo estado;
 
     //Constructor
     public Vehiculo(String marca, String modelo, int anio) {
         this.marca = marca;
         this.modelo = modelo;
         this.anio = anio;
+    }
+
+    public Vehiculo(String marca, String modelo, int anio, Color color, EstadoVehiculo estado) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anio = anio;
+        this.color = color;
+        this.estado = estado;
     }
 
     public abstract void conducir();
@@ -59,13 +69,14 @@ public abstract class Vehiculo {
         this.anio = anio;
     }
 
-    //toString
     @Override
     public String toString() {
         return "Vehiculo{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
                 ", anio=" + anio +
+                ", color=" + color +
+                ", estado=" + estado +
                 '}';
     }
 }

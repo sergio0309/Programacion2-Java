@@ -13,5 +13,9 @@ public class Main {
         System.out.println("############################");
         Vehiculo electrico = new AutoElectrico("Fiat", "Duna",2017, 90);
         System.out.println("Vehiculo Electrico: " + electrico.toString());
+
+        System.out.println("############################");
+        Vehiculo electrico1 = new AutoElectrico("Camaro","modelo1",2027,Color.BLANCO,EstadoVehiculo.EN_TALLER, 90);
+        System.out.println("Vehiculo Electrico1: " + electrico1.toString());
     }
 }

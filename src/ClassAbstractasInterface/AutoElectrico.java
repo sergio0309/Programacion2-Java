@@ -8,6 +8,11 @@ public class AutoElectrico extends Vehiculo implements Electrico, PilotoAutomati
         this.nivelBateria = nivelBateria;
     }
 
+    public AutoElectrico(String marca, String modelo, int anio, Color color, EstadoVehiculo estado, int nivelBateria) {
+        super(marca, modelo, anio, color, estado);
+        this.nivelBateria = nivelBateria;
+    }
+
     @Override
     public void conducir() {
         System.out.println("El auto esta en marcha");
